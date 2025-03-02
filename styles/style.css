@@ -16,6 +16,7 @@ body {
     color: #22D4FD;
 }
 
+/* Estilos para o cabeçalho */
 .cabecalho {
     padding: 2% 0 0 15%;
 }
@@ -39,11 +40,13 @@ body {
     color: #FFFFFF;
 }
 
+/* Estilos para a seção de apresentação */
 .apresentacao {
     padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .apresentacao__conteudo {
@@ -105,22 +108,39 @@ body {
     cursor: pointer;
 }
 
-.rodape {
-    background-color: #22D4FD;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    padding: 24px;
+/* Estilos para a página do currículo */
+.apresentacao__topo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
 }
-/* Estilos gerais */
+
+.apresentacao__topo__texto {
+    flex: 1;
+}
+
+.apresentacao__imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #22D4FD;
+}
+
 .apresentacao__conteudo__subtitulo {
     font-size: 28px;
     font-family: 'Krona One', sans-serif;
     margin-top: 40px;
     margin-bottom: 20px;
     color: #22D4FD;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #F6F6F6;
 }
 
 .apresentacao__conteudo__texto ul {
@@ -132,8 +152,13 @@ body {
     margin-bottom: 10px;
 }
 
-.apresentacao__imagem {
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 40px;
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
 }
