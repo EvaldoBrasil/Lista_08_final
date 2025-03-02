@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */ /* Comentado para ajustar o layout */
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -16,8 +16,31 @@ body {
     color: #22D4FD;
 }
 
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: #FFFFFF;
+}
+
 .apresentacao {
-    margin: 10% 15%;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,4 +103,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-color: #0000FF;
     cursor: pointer;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
 }
