@@ -23,7 +23,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 /* Estilos para o cabeçalho */
@@ -41,7 +41,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD; /* Cor azul claro */
+    color:var(--cor-terciaria); /* Cor azul claro */
     text-decoration: none; /* Remove o sublinhado */
     padding: 10px;
     transition: color 0.3s ease; /* Transição suave para o hover */
@@ -101,7 +101,7 @@ body {
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
-    border: 2px solid #22D4FD;
+    border: 2px solidvar(--cor-terciaria);
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ body {
 
 /* Estilos para o rodapé */
 .rodape {
-    background-color: #22D4FD;
+    background-color:var(--cor-terciaria);
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
